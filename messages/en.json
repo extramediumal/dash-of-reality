@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "title": "Gig Driver Profit Calculator — What You Really Make",
+    "description": "Find out what you actually earn per hour after expenses, taxes, and mileage. Free calculator for DoorDash, Uber Eats, Instacart drivers."
+  },
+  "header": {
+    "title": "Dash of Reality"
+  },
+  "form": {
+    "earnings": "What did the app say you earned?",
+    "earningsPlaceholder": "127.50",
+    "activeHours": "Hours on deliveries",
+    "activeHoursPlaceholder": "6",
+    "totalHours": "Total hours (including waiting)",
+    "totalHoursPlaceholder": "8",
+    "miles": "Miles you drove",
+    "milesPlaceholder": "85",
+    "milesTooltip": "Include driving to restaurants and back to your area, not just delivery miles",
+    "platforms": "Which apps?",
+    "optionalSection": "Tax details (optional)",
+    "filingStatus": "Filing status",
+    "single": "Single",
+    "married": "Married",
+    "annualIncome": "Rough annual income",
+    "annualIncomePlaceholder": "30000",
+    "calculate": "Calculate",
+    "itemizeTitle": "Advanced: Itemize your costs",
+    "comingSoon": "Coming soon"
+  },
+  "results": {
+    "youReallyMade": "You really made",
+    "perHour": "/hr",
+    "minWage": "Minimum wage: {wage}/hr",
+    "w2Equivalent": "At a regular job, this equals",
+    "w2Tooltip": "A regular job also pays part of your taxes and may include benefits",
+    "breakdown": "See the breakdown",
+    "mileageCost": "Mileage ({miles} mi × $0.725)",
+    "seTax": "Self-employment tax (14.13%)",
+    "incomeTax": "Estimated income tax ({rate}%)",
+    "kept": "What you kept",
+    "activeRate": "Per delivery hour",
+    "share": "Share my results",
+    "linkCopied": "Link copied!"
+  }
+}

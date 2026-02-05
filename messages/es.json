@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "title": "Calculadora de Ganancias para Repartidores",
+    "description": "Descubre cuanto ganas realmente por hora despues de gastos, impuestos y millaje. Calculadora gratis para repartidores de DoorDash, Uber Eats, Instacart."
+  },
+  "header": {
+    "title": "Dash of Reality"
+  },
+  "form": {
+    "earnings": "Cuanto dice la app que ganaste?",
+    "earningsPlaceholder": "127.50",
+    "activeHours": "Horas en entregas",
+    "activeHoursPlaceholder": "6",
+    "totalHours": "Horas totales (incluyendo espera)",
+    "totalHoursPlaceholder": "8",
+    "miles": "Millas que manejaste",
+    "milesPlaceholder": "85",
+    "milesTooltip": "Incluye millas manejando al restaurante y de regreso a tu zona, no solo las de entrega",
+    "platforms": "Cuales apps?",
+    "optionalSection": "Detalles de impuestos (opcional)",
+    "filingStatus": "Estado civil",
+    "single": "Soltero/a",
+    "married": "Casado/a",
+    "annualIncome": "Ingreso anual aproximado",
+    "annualIncomePlaceholder": "30000",
+    "calculate": "Calcular",
+    "itemizeTitle": "Avanzado: Desglosar tus costos",
+    "comingSoon": "Proximamente"
+  },
+  "results": {
+    "youReallyMade": "Realmente ganaste",
+    "perHour": "/hr",
+    "minWage": "Salario minimo: {wage}/hr",
+    "w2Equivalent": "En un trabajo regular, esto equivale a",
+    "w2Tooltip": "Un trabajo regular tambien paga parte de tus impuestos y puede incluir beneficios",
+    "breakdown": "Ver el desglose",
+    "mileageCost": "Millaje ({miles} mi × $0.725)",
+    "seTax": "Impuesto de autoempleo (14.13%)",
+    "incomeTax": "Impuesto estimado ({rate}%)",
+    "kept": "Lo que te quedo",
+    "activeRate": "Por hora de entrega",
+    "share": "Compartir mis resultados",
+    "linkCopied": "Enlace copiado!"
+  }
+}
