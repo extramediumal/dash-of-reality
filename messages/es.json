@@ -1,13 +1,13 @@
 {
   "meta": {
     "title": "Calculadora de Ganancias para Repartidores",
-    "description": "Descubre cuanto ganas realmente por hora despues de gastos, impuestos y millaje. Calculadora gratis para repartidores de DoorDash, Uber Eats, Instacart."
+    "description": "Descubre cuánto ganas realmente por hora después de gastos, impuestos y millaje. Calculadora gratis para repartidores de DoorDash, Uber Eats, Instacart."
   },
   "header": {
     "title": "Dash of Reality"
   },
   "form": {
-    "earnings": "Cuanto dice la app que ganaste?",
+    "earnings": "¿Cuánto dice la app que ganaste?",
     "earningsPlaceholder": "127.50",
     "activeHours": "Horas en entregas",
     "activeHoursPlaceholder": "6",
@@ -16,7 +16,7 @@
     "miles": "Millas que manejaste",
     "milesPlaceholder": "85",
     "milesTooltip": "Incluye millas manejando al restaurante y de regreso a tu zona, no solo las de entrega",
-    "platforms": "Cuales apps?",
+    "platforms": "¿Cuáles apps?",
     "optionalSection": "Detalles de impuestos (opcional)",
     "filingStatus": "Estado civil",
     "single": "Soltero/a",
@@ -25,21 +25,21 @@
     "annualIncomePlaceholder": "30000",
     "calculate": "Calcular",
     "itemizeTitle": "Avanzado: Desglosar tus costos",
-    "comingSoon": "Proximamente"
+    "comingSoon": "Próximamente"
   },
   "results": {
     "youReallyMade": "Realmente ganaste",
     "perHour": "/hr",
-    "minWage": "Salario minimo: {wage}/hr",
+    "minWage": "Salario mínimo: {wage}/hr",
     "w2Equivalent": "En un trabajo regular, esto equivale a",
-    "w2Tooltip": "Un trabajo regular tambien paga parte de tus impuestos y puede incluir beneficios",
+    "w2Tooltip": "Un trabajo regular también paga parte de tus impuestos y puede incluir beneficios",
     "breakdown": "Ver el desglose",
     "mileageCost": "Millaje ({miles} mi × $0.725)",
     "seTax": "Impuesto de autoempleo (14.13%)",
     "incomeTax": "Impuesto estimado ({rate}%)",
-    "kept": "Lo que te quedo",
+    "kept": "Lo que te quedó",
     "activeRate": "Por hora de entrega",
     "share": "Compartir mis resultados",
-    "linkCopied": "Enlace copiado!"
+    "linkCopied": "¡Enlace copiado!"
   }
 }

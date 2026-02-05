@@ -24,6 +24,7 @@ export interface CalculationResult {
   grossHourlyRate: number;
   w2Equivalent: number;
   netEarnings: number;
+  incomeTaxRate: number;
   deductions: {
     mileageCost: number;
     seTax: number;
@@ -64,6 +65,7 @@ export function calculate(input: CalculationInput): CalculationResult {
     grossHourlyRate,
     w2Equivalent,
     netEarnings,
+    incomeTaxRate,
     deductions: {
       mileageCost,
       seTax,

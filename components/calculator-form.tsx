@@ -56,13 +56,16 @@ export function CalculatorForm({ initialInputs, onResult }: CalculatorFormProps)
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
 
+    const parsedActiveHours = parseFloat(activeHours) || 0;
+    const parsedTotalHours = parseFloat(totalHours) || 0;
+
     const input: CalculationInput = {
       grossEarnings: parseFloat(earnings) || 0,
-      activeHours: parseFloat(activeHours) || 0,
-      totalHours: parseFloat(totalHours) || 0,
+      activeHours: Math.min(parsedActiveHours, parsedTotalHours || parsedActiveHours),
+      totalHours: Math.max(parsedTotalHours, parsedActiveHours),
       totalMiles: parseFloat(miles) || 0,
       platforms,
-      filingStatus,
+      filingStatus: annualIncome ? filingStatus : undefined,
       annualIncome: annualIncome ? parseFloat(annualIncome) : undefined,
     };
 

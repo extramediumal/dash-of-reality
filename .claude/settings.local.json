@@ -3,7 +3,30 @@
     "allow": [
       "WebSearch",
       "Bash(dir:*)",
-      "Bash(git init:*)"
+      "Bash(git init:*)",
+      "Bash(git commit:*)",
+      "Bash(git add:*)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src=no --import-alias=\"@/*\" --use-npm)",
+      "Bash(npx create-next-app@latest:*)",
+      "Bash(npm install:*)",
+      "Bash(npx shadcn@latest init:*)",
+      "Bash(npx shadcn@latest add:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm run test:*)",
+      "Bash(npm ls:*)",
+      "Bash(echo:*)",
+      "Bash(npx vitest:*)",
+      "Bash(npm test:*)",
+      "Bash(ls:*)",
+      "Bash(node:*)",
+      "Bash(del \"C:\\\\Users\\\\alhar\\\\Projects\\\\dash-of-reality\\\\app\\\\page.tsx\")",
+      "Bash(git -C \"C:\\\\Users\\\\alhar\\\\Projects\\\\dash-of-reality\" status)",
+      "Bash(git -C \"C:\\\\Users\\\\alhar\\\\Projects\\\\dash-of-reality\" diff)",
+      "Bash(git -C \"C:\\\\Users\\\\alhar\\\\Projects\\\\dash-of-reality\" log --oneline -5)",
+      "Bash(git -C \"C:\\\\Users\\\\alhar\\\\Projects\\\\dash-of-reality\" add app/layout.tsx \"app/[locale]/layout.tsx\")",
+      "Bash(git -C \"C:\\\\Users\\\\alhar\\\\Projects\\\\dash-of-reality\" commit -m \"$\\(cat <<''EOF''\nfeat: add SEO meta tags, OG data, and Schema.org markup\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git -C \"C:\\\\Users\\\\alhar\\\\Projects\\\\dash-of-reality\" log --oneline -3)",
+      "Bash(npx next build)"
     ]
   }
 }

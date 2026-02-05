@@ -41,9 +41,7 @@ export function ResultsDisplay({ result, input, locale }: ResultsDisplayProps) {
     ? Math.round((result.actualHourlyRate / result.grossHourlyRate) * 100)
     : 0;
 
-  const incomeTaxPercent = input.annualIncome
-    ? Math.round(result.deductions.incomeTax / Math.max(input.grossEarnings - result.deductions.mileageCost, 1) * 100)
-    : 12;
+  const incomeTaxPercent = Math.round(result.incomeTaxRate * 100);
 
   return (
     <Card className="w-full max-w-md">
