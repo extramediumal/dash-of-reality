@@ -34,6 +34,19 @@ export default async function LocaleLayout({
 
   return (
     <NextIntlClientProvider messages={messages}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebApplication",
+            name: "Dash of Reality — Gig Driver Profit Calculator",
+            applicationCategory: "FinanceApplication",
+            operatingSystem: "Any",
+            offers: { "@type": "Offer", price: "0" },
+          }),
+        }}
+      />
       <header className="flex items-center justify-between p-4 border-b">
         <h1 className="text-lg font-bold">Dash of Reality</h1>
         <LanguageToggle locale={locale} />
