@@ -17,6 +17,16 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: t("title"),
     description: t("description"),
+    manifest: "/manifest.json",
+    themeColor: "#1c1c1c",
+    appleWebApp: {
+      capable: true,
+      statusBarStyle: "default",
+      title: "Dash of Reality",
+    },
+    icons: {
+      apple: "/icons/icon-192.png",
+    },
     openGraph: {
       title: t("title"),
       description: t("description"),
